@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Roboto+Condensed&family=Roboto:wght@100;400&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-family: "Caveat", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+table {
+  background-color: #dbd9d9;
+  margin-top: 2rem;
+  width: 40%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table,
+th,
+td {
+  border: 2px solid #7e45cf;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+
+button {
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: #7e45cf;
+  color: #dbd9d9;
+}
+
+a {
+  text-decoration: none;
+  color: #dbd9d9;
+  font-size: larger;
+}
+
+@media screen and (max-width: 768px) {
+  table {
+    width: 90%;
+  }
+}

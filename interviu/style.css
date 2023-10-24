@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Roboto+Condensed&family=Roboto:wght@100;400&display=swap");
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container-1 {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.elemente {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.poza {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 404px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.form-container {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-text {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-text label {
+  margin-bottom: 3px;
+  font-size: 1rem;
+  color: #000;
+}
+
+.form-text input {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+  background-color: #efecec;
+  border: none;
+  border-radius: 3px;
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.form-btn {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.form-btn label {
+  margin-left: 5px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #7e45cf;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #5d3299;
+}
+
+@media screen and (max-width: 910px) {
+  .elemente {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .poza {
+    margin-top: 20px;
+    width: 80%;
+  }
+
+  .form-container {
+    margin-top: 20px;
+    width: 80%;
+  }
+}
